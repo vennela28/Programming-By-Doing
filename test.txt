@@ -1,0 +1,1 @@
+Test git configured on Windows 10
