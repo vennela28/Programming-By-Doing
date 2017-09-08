@@ -8,9 +8,11 @@ public class TwentyQuestions{
 	System.out.println("Think of an object, and I'll try to guess it.");
 	System.out.println();
 	System.out.println("Question 1) Is it animal, vegetable, or mineral?");
+	System.out.print("> ");
 	answer=keyboard.next();
 	System.out.println();
 	System.out.println("Question 2) Is it bigger than a breadbox?");
+	System.out.print("> ");
 	answer1=keyboard.next();
 	System.out.println();
 	if(answer1.equals("yes")){
