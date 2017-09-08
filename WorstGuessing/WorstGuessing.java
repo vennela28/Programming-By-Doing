@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class WorstGuessing{
 	public static void main(String[] args){
 		Scanner keyboard = new Scanner(System.in);
-		System.out.println("TEH WORST NUBMER GUESSING GAME EVAR!!!!!!!1!");
+		System.out.println("THE WORST NUBMER GUESSING GAME EVAR!!!!!!!1!");
 		System.out.println();
 		int guess = 4;
 		System.out.print("I\'M THKING OF A NBR FROM 1-10.  TRY 2 GUESS! ");
