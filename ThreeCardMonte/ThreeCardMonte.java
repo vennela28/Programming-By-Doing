@@ -15,9 +15,10 @@ public class ThreeCardMonte{
 		System.out.println("\t\t##	##	##");
 		System.out.println("\t\t1	2	3");
 		System.out.println();
+		System.out.print("> ");
 		int choice = keyboard.nextInt();
 		System.out.println();
-		
+				
 		if(choice!=x){
 			System.out.println("Ha! Fast Eddie wins again! The ace was card number "+x);
 			System.out.println();
