@@ -7,7 +7,8 @@ public class NumberGuessingWithACounter{
 	int Low = 1;
 	int High = 10;
 	int actual = r.nextInt(High-Low) + Low;
-	System.out.println(actual);
+	//int actual = 1+r.nextInt(10);
+	//System.out.println(actual);
 	
 	System.out.println("I have chosen a number between 1 and 10.  Try to guess it.");
 	int tries=1;
