@@ -6,13 +6,13 @@ public class FlipAgain
 	public static void main( String[] args )
 	{
 		Scanner keyboard = new Scanner(System.in);
-		Random rng = new Random();
+		Random r = new Random();
 
 		String again;
 
 		do
 		{
-			int flip = rng.nextInt(2);
+			int flip = 1+r.nextInt(2);
 			String coin="";
 
 			if ( flip == 1 )
