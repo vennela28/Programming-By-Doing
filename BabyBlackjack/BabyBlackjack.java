@@ -18,8 +18,10 @@ public class BabyBlackjack{
 		System.out.println();
 		if(sum>sum1){
 			System.out.println("YOU WIN!");
-		}else{
+		}else if(sum<sum1){
 			System.out.println("YOU LOSE!");
+		}else{
+			System.out.println("WOO HOO!!! IT'S A TIE");
 		}
 	
 	}
