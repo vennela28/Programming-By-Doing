@@ -5,9 +5,9 @@ public class LetterToYourself{
 		System.out.println("|                                                         #### |");
 		System.out.println("|                                                         #### |");
 		System.out.println("|                                                              |");
-		System.out.println("|                             Sunnam Vennela                   |");
-		System.out.println("|                             1401 Red Hawk Circle, Apt-P204   |");
-		System.out.println("|                             Fremont, CA-94588                |");
+		System.out.println("|                             Vennela Sunnam                   |");
+		System.out.println("|                             5010 Owens Drive, Apt-336        |");
+		System.out.println("|                             Pleasanton, CA-94588             |");
 		System.out.println("|                                                              |");
 		System.out.println("+--------------------------------------------------------------+");
 	}
