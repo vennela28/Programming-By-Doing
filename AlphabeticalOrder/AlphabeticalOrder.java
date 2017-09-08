@@ -13,7 +13,7 @@ public class AlphabeticalOrder{
 		}else if(lname.compareTo("Young")<=0){
 			System.out.println("It\'s gonna be a while, "+lname);
 		}else if(lname.compareTo("Young")>=0){
-			System.out.println("Not going anywhaere for a while? "+lname);
+			System.out.println("Not going anywhere for a while? "+lname);
 		}
 		else{
 			System.out.println("error");
