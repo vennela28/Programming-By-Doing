@@ -4,7 +4,7 @@ public class NumbersAndMath
 	{
 		System.out.println( "I will now count my chickens:" );
 
-		System.out.println( "Hens " + ( 25.0 + 30.0 / 6 ) );
+		System.out.println( "Hens " + ( 25+ 30 / 6 ) );
 		System.out.println( "Roosters " + ( 100 - 25 * 3 % 4 ) );
 
 		System.out.println( "Now I will count the eggs:" );
