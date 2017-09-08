@@ -4,9 +4,9 @@ public class LittleQuiz{
 	Scanner keyboard = new Scanner(System.in);
 	System.out.print("Are, you ready for a quiz? ");
 	String ans = keyboard.next();
-	
-	System.out.println("Okay, here it comes! ");
-	System.out.println();
+	if(ans.equals("Y")){
+			System.out.println("Okay, here it comes! ");
+			System.out.println();
 	System.out.println("Q1) What is the capital of Alaska?");
 	System.out.println( "\t\t 1) Melbourne");
 	System.out.println("\t\t 2) Anchorage");
@@ -66,7 +66,10 @@ public class LittleQuiz{
 		System.out.println("Overall you got 1 out of 3 correct.");
 	}
 	System.out.println("Thanks for playing!");
-	
+	}
+	else{
+		System.out.println("We are waiting for you to take up the quiz!");
 	}
 	
+	}
 }
