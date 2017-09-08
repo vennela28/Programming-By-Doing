@@ -19,7 +19,6 @@ public class PictureMenu
 		if ( choice == 1 )
 		{
 			butterfly();
-			butterfly();
 		}
 		else if ( choice == 2 )
 		{
@@ -56,7 +55,7 @@ public class PictureMenu
 		System.out.println("      ,':8(o)./|=|\\.(o)8:`.        ");
 		System.out.println("     (O :8 ::/ \\_/ \\:: 8: O)      ");
 		System.out.println("      \\O `::/       \\::' O/       ");
-		System.out.println("       \"\"--'         `--\"\"   hjw");
+		System.out.println("       \"\"--'         `--\"\"      ");
 	}
 	
 	public static void elephant()
@@ -77,7 +76,7 @@ public class PictureMenu
 		System.out.println("         .---./_/   \\  .==.  /   \\ \\");
 		System.out.println("        / '.    `-.__)       |    `\"");
 		System.out.println("       | =(`-.        '==.   ;");
-		System.out.println(" jgs    \\  '. `-.           /");
+		System.out.println("        \\  '. `-.           /");
 		System.out.println("         \\_:_)   `\"--.....-'");
 	}
 	
@@ -98,7 +97,7 @@ public class PictureMenu
 		System.out.println("  /      /\\              `         | |");
 		System.out.println("  |   .\\/  \\      .--. __          \\ |");
 		System.out.println("   '-'      '._       /  `\\         /");
-		System.out.println("      jgs      `\\    '     |------'`");
+		System.out.println("               `\\    '     |------'`");
 		System.out.println("                 \\  |      |");
 		System.out.println("                  \\        /");
 		System.out.println("                   '._  _.'");
@@ -119,7 +118,7 @@ public class PictureMenu
 		System.out.println("___________\\\\|===| //_____,----\"\"\"\"\"\"\"\"\"\"-----,_");
 		System.out.println("  \"\"\"\"---,__`\\===`/ _________,---------,____    `,");
 		System.out.println("             |==||                           `\\   \\");
-		System.out.println("            |==| |          pb                 )   |");
+		System.out.println("            |==| |                             )   |");
 		System.out.println("           |==| |       _____         ______,--'   '");
 		System.out.println("           |=|  `----\"\"\"     `\"\"\"\"\"\"\"\"         _,-'");
 		System.out.println("            `=\\     __,---\"\"\"-------------\"\"\"''");
