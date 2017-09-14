@@ -6,7 +6,7 @@ public class FindingAValueInAnArray{
 		Random r = new Random();
 		System.out.print("Array: ");
 		for(int i=0; i<a.length; i++){
-			a[i]=1 + (int)(Math.random()*50);
+			a[i]=1 + r.nextInt(50);
 			System.out.print(a[i]+" ");
 		}
 		System.out.println();
