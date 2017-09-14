@@ -7,12 +7,15 @@ public class SimpleWebInput
 	{
 		URL mcool = new URL("https://cs.leanderisd.org/mitchellis.txt");
 		Scanner webIn = new Scanner( mcool.openStream() );
-	
-		String one = webIn.nextLine();
 		
+		while(webIn.hasNext()){
+				String one = webIn.nextLine();
+				System.out.println(one);
+				
+		}
 		webIn.close();
 		
-		System.out.println(one);
+		
 	}
 }
 
