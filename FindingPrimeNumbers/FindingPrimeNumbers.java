@@ -5,7 +5,6 @@ public class FindingPrimeNumbers{
 				System.out.println(i);
 			}
 		}
-	
 	}public static boolean isPrime(int n){
 		boolean prime=false;
 		for(int i=2; i<=n/2; i++){
