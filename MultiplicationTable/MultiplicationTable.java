@@ -1,17 +1,16 @@
 public class MultiplicationTable{
 	public static void main(String[] args){
-	System.out.println("x | 1      2      3      4      5      6       7       8       9 ");
-	System.out.println("==+===============================================================");
-	for(int i=1; i<=12; i++){
-		System.out.print(i+" | ");
+	System.out.println("x  | 1\t2\t3\t4\t5\t6\t7\t8\t9 ");
+	System.out.println("===+=================================================================");
+	for(int x=1; x<=12; x++){
+		if (x < 10 )
+				System.out.print ( " " + x + " | " );
+			else
+				System.out.print ( x + " | " );
 		
 		for(int j=1; j<=9; j++){
-			System.out.print(j*i+"      ");
-			
-		
-		
-		
-		
+			System.out.print((x*j)+"\t");
+	
 	}System.out.println();
 		
 	
