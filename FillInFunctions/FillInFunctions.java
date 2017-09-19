@@ -40,9 +40,10 @@ public class FillInFunctions
 	{
 		// displays some boilerplate text saying who wrote this program, etc.
 		String result="";
+		String name="Vennela Sunnam";
 		System.out.println();
 		System.out.println("programmed by Graham Mitchell");
-		System.out.println("modified by Vennela Sunnam");
+		System.out.println("modified by "+name);
 		System.out.print("This code is distributed under the terms of the standard ");
 		System.out.println("BSD license.  Do with it as you wish.");
 
