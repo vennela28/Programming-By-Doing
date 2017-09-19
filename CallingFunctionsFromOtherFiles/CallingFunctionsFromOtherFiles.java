@@ -47,7 +47,7 @@ public class CallingFunctionsFromOtherFiles
                        
                 remainder = total%7;
 		weekday_name(remainder);
-		date = weekday_name(remainder) + ", " + month_name(mm) + ", " + yyyy;
+		date = weekday_name(remainder) + ", " + month_name(mm) +" " + dd + ", " + yyyy;
 
 		return date;
 	}
