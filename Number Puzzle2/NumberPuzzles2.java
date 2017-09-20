@@ -9,7 +9,7 @@ public class NumberPuzzles2{
 			System.out.println();
 		}else if(choice == 2){
 			numPuzzle2();
-			System.out.println();
+			
 		}else if(choice ==3){
 			break;
 		}else{
@@ -22,7 +22,7 @@ public class NumberPuzzles2{
 			for (int ones = 0; ones < 10; ones++ )
 			{
 				if ( (tens + ones) > 10 && ( (tens * 10) + ones) <= 56 ) 
-					System.out.println( tens + "" + ones);
+					System.out.print( tens + "" + ones + "\t");
 					
 			}
 		}
@@ -45,6 +45,7 @@ public class NumberPuzzles2{
 	{
 		Scanner kb = new Scanner(System.in);
 		int choice;
+		System.out.println();
 		System.out.println( "1) Find two digit numbers <= 56 with sums of digits > 10" );
 		System.out.println( "2) Find two digit number minus number reversed which equals sum of digits" );
 		System.out.println( "3) Quit" );
