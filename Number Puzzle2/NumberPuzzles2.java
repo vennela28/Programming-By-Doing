@@ -6,8 +6,10 @@ public class NumberPuzzles2{
 		choice = menuOptions();
 		if(choice == 1){
 			display();
+			System.out.println();
 		}else if(choice == 2){
 			numPuzzle2();
+			System.out.println();
 		}else if(choice ==3){
 			break;
 		}else{
@@ -21,9 +23,12 @@ public class NumberPuzzles2{
 			{
 				if ( (tens + ones) > 10 && ( (tens * 10) + ones) <= 56 ) 
 					System.out.println( tens + "" + ones);
+					
 			}
 		}
+		
 	}
+	
 	
 	public static void numPuzzle2()
 	{	
