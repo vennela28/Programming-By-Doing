@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class LittleQuiz{
 	public static void main(String[] args){
 	Scanner keyboard = new Scanner(System.in);
+	int correct=0;
 	System.out.print("Are, you ready for a quiz? ");
 	String ans = keyboard.next();
 	if(ans.equals("Y")){
@@ -16,6 +17,7 @@ public class LittleQuiz{
 	if(choice==3){		
 		System.out.println();
 		System.out.println("That\'s right!");
+		correct++;
 	}else{
 		System.out.println();
 		System.out.println("Sorry, Juneau is the capital of Alaska.");
@@ -32,6 +34,7 @@ public class LittleQuiz{
 	}else{
 		System.out.println();		
 		System.out.println("That\'s right!");
+		correct++;
 	}
 	System.out.println();
 	System.out.println("Q3) What is the result of 9+6/3? ");
@@ -43,33 +46,19 @@ public class LittleQuiz{
 	if(choice2==2){
 		System.out.println();
 		System.out.println("That\'s right!");
+		correct++;
 	}else{
 		System.out.println();
 		System.out.println("Sorry, 11 is the correct answer.");
 	}
 	System.out.println();
-	if(choice==3 && choice1==2 && choice2==2){
-		System.out.println("Overall you got all 3 correct!");
-	}else if(choice!=3 && choice1!=2 && choice2!=2){
-		System.out.println("Overall you got all 3 incorrect!");
-	}else if(choice!=3 && choice1==2 && choice2==2){
-		System.out.println("Overall you got 2 out of 3 correct.");
-	}else if(choice==3 && choice1!=2 && choice2==2){
-		System.out.println("Overall you got 2 out of 3 correct.");
-	}else if(choice==3 && choice1==2 && choice2!=2){
-		System.out.println("Overall you got 2 out of 3 correct.");
-	}else if(choice!=3 && choice1!=2 && choice2==2){
-		System.out.println("Overall you got 1 out of 3 correct.");
-	}else if(choice!=3 && choice1==2 && choice2!=2){
-		System.out.println("Overall you got 1 out of 3 correct.");
-	}else if(choice==3 && choice1!=2 && choice2!=2){
-		System.out.println("Overall you got 1 out of 3 correct.");
-	}
-	System.out.println("Thanks for playing!");
-	}
-	else{
-		System.out.println("We are waiting for you to take up the quiz!");
+	if(correct==3){
+		System.out.println("Overall you got all 3 correct.");
+	}else{
+		System.out.println("Overall you got "+correct+" out of 3 correct.");
 	}
 	
 	}
+	System.out.println("Thanks for playing!");
+}
 }
