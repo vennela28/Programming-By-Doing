@@ -19,9 +19,7 @@ public class CollatzSequence{
 		if(start>max){
 				max = start;
 		}	
-		if(count%10==0){
-			
-		}
+		
 	}
 		System.out.println();
 		System.out.println();
