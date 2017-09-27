@@ -4,8 +4,8 @@ public class AgainWithTheNumberGuessing{
 	Scanner keybaord = new Scanner(System.in);
 	Random r = new Random();
 	int actual= r.nextInt(10);
-	System.out.println("I have chosen a number between 1 and 10.  Try to guess it.");
-	int tries=0;
+	System.out.println("I have chosen a number between 1 and 10. Try to guess it.");
+	int tries=1;
 	System.out.print("Your guess: ");
 	int guess = keybaord.nextInt();
 	do{
@@ -16,7 +16,7 @@ public class AgainWithTheNumberGuessing{
 			tries++;
 		}
 	}while(guess!=actual);
-			System.out.println("That's right!  You're a good guesser.");
+			System.out.println("That's right! You're a good guesser.");
 			System.out.println("It took you "+tries+" tries.");		
 	}
 }
