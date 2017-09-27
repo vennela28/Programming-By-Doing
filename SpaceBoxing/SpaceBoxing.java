@@ -27,7 +27,6 @@ public class SpaceBoxing{
 		}else if(choice==6){
 			weight=weight*1.23;
 		}
-		System.out.println();
-		System.out.print("Your weight would be "+weight+" pounds on that planet.");
+		System.out.println("Your weight would be "+weight+" pounds on that planet.");
 	}
 }
