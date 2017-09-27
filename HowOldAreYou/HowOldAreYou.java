@@ -15,7 +15,7 @@ public class HowOldAreYou{
 		
 	}if(age<25){
 		System.out.println("You can't rent a car, "+name+".");
-	}if(age>25){
+	}if(age>=25){
 		System.out.println("You can do anything that's legal, "+name+".");
 	}
 	}
