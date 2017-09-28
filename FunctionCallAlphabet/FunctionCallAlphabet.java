@@ -12,6 +12,7 @@ public class FunctionCallAlphabet
 		 f("Frog");    // displays the word you pass it beginning with "F"
 		 System.out.print(g());    // returns the word to be displayed
 		 h(1);    // tell it how many times to display the word (1)
+		
 		System.out.println();
 
 		 i(30);    // pass it any integer and it will display a word beginning with I 
@@ -23,6 +24,7 @@ public class FunctionCallAlphabet
 		 o();    // displays a word beginning with O and returns a useless value
 		 System.out.print(p());    // returns the word to be displayed
 		 q();    // displays the word
+		
 		System.out.println();
 
 		 System.out.print(r(true));    // returns a different word depending on if you pass it 'true' or 'false'
@@ -34,6 +36,7 @@ public class FunctionCallAlphabet
 		 System.out.print(x(2));    // returns a different word depending on what you pass it (1-2)
 		 y();    // displays a word beginning with Y
 		 System.out.print(z(true, true));    // returns a different word depending on which two boolean values you pass it
+		
 		System.out.println();
 	}
 
