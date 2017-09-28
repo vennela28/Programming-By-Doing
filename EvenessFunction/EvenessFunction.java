@@ -15,15 +15,15 @@ public class EvenessFunction{
 		
 	}
 	public static boolean isEven(int n){
-		boolean two = false;
+		//boolean two = false;
 		if(n%2==0){
-			two = true;
-		}return two;
+			return true;
+		}return false;
 	}
 	public static boolean isDivisibleBy3(int n){
-		boolean three = false;
+		//boolean three = false;
 		if(n%3==0){
-			three = true;
-		}return three;
+			return true;
+		}return false;
 	}
 }
