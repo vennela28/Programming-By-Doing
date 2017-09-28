@@ -41,7 +41,7 @@ public class Keychains2{
 	}
 	public static int add_keychains(int k){
 		Scanner s = new Scanner(System.in);
-		System.out.print("You have 0 keychains. How many to add? ");
+		System.out.print("You have "+k+" keychains. How many to add? ");
 		int add = s.nextInt();
 		k = k+add;
 		System.out.println("You now have "+k+" keychains.");
