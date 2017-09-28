@@ -38,9 +38,9 @@ public class Nim {
             for (int i = 0; i<pileC;i++){
                 System.out.print("*");
             }
-            
+            System.out.println();
             //prompt for another choice
-            System.out.print("\r\n" + currentPlayer + " Choose a pile: ");
+            System.out.print("\r\n" + currentPlayer + ", choose a pile: ");
 
             String choice = keyboard.nextLine();
             
@@ -82,10 +82,38 @@ public class Nim {
             
             //who's the winner?
             if (pileA+pileB+pileC==1 && currentPlayer.equals(player1)){
-                System.out.print(player2+", you must take the last remaining counter, so you lose. "+player1+" wins!");
+				System.out.print("\r\nA: ");
+				for (int i = 0; i<pileA;i++){
+					System.out.print("*");
+				}
+				System.out.print("\r\nB: ");
+				for (int i = 0; i<pileB;i++){
+					System.out.print("*");
+				}
+				System.out.print("\r\nC: ");
+				for (int i = 0; i<pileC;i++){
+					System.out.print("*");
+				}
+				System.out.println();
+				System.out.println();
+                System.out.println(player2+", you must take the last remaining counter, so you lose. "+player1+" wins!");
                 break;
             }else if (pileA+pileB+pileC==1 && currentPlayer.equals(player2)){
-                System.out.print(player1+", you must take the last remaining counter, so you lose. "+player2+" wins!");
+				System.out.print("\r\nA: ");
+				for (int i = 0; i<pileA;i++){
+					System.out.print("*");
+				}
+				System.out.print("\r\nB: ");
+				for (int i = 0; i<pileB;i++){
+					System.out.print("*");
+				}
+				System.out.print("\r\nC: ");
+				for (int i = 0; i<pileC;i++){
+					System.out.print("*");
+				}
+				System.out.println();
+				System.out.println();
+                System.out.println(player1+", you must take the last remaining counter, so you lose. "+player2+" wins!");
                 break;
             }
             if(pileA<=0 && pileB <= 0 && pileC <= 0) {
