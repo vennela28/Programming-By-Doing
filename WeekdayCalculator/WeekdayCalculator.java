@@ -27,7 +27,7 @@ public class WeekdayCalculator
 		int yyyy = keyboard.nextInt();
 
 		// put a function call for weekday() here
-		System.out.println("You were born on "+weekday(mm,dd,yyyy));
+		System.out.println("You were born on "+weekday(mm,dd,yyyy)+"!");
 	}
 
 
