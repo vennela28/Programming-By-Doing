@@ -27,7 +27,7 @@ public class CallingFunctionsFromOtherFiles
 		int yyyy = keyboard.nextInt();
 
 		// put a function call for weekday() here
-		System.out.println("You were born on "+weekday(3,28,1990));
+		System.out.println("You were born on "+weekday(mm,dd,yyyy)+"!");
 	}
 
 	public static String weekday( int mm, int dd, int yyyy )
