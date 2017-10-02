@@ -3,9 +3,9 @@ public class NestingLoops
 	public static void main( String[] args )
 	{
 		// this is #1 - I'll call it "CN"
-		for ( char c='A'; c <= 'E'; c++ )
+		for ( int n=1; n <= 3; n++ )
 		{
-			for ( int n=1; n <= 3; n++ )
+			for ( char c='A'; c <= 'E'; c++ )
 			{
 				System.out.println( c + " " + n );
 			}
