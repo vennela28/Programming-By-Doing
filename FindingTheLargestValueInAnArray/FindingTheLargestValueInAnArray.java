@@ -6,7 +6,7 @@ public class FindingTheLargestValueInAnArray{
 		Random r = new Random();
 		int a[] = new int[10];
 		int largest=0;
-		int slot=0;
+		//int slot=0;
 		System.out.print("Array: ");
 		for(int i=0; i<a.length; i++){
 			a[i]= 1+r.nextInt(50);
@@ -15,11 +15,11 @@ public class FindingTheLargestValueInAnArray{
 		for(int i=0; i<a.length-1; i++){
 			if(largest<a[i]){
 				largest=a[i];
-				slot=i;
+				//slot=i;
 			}
 		}
 		System.out.println();
 		System.out.println("\nThe largest value is "+largest+".");
-		System.out.println("It is found in slot "+slot+".");
+		//System.out.println("It is found in slot "+slot+".");
 	}
 }
