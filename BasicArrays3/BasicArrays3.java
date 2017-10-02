@@ -6,7 +6,7 @@ public class BasicArrays3{
 	
 	for(int i=0; i<a.length; i++){
 		a[i] = 10 + r.nextInt(90);
-		System.out.print(a[i]+"  ");
+		System.out.print(a[i]+"\t");
 	}
 	}
 }
