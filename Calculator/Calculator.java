@@ -60,6 +60,7 @@ public class Calculator{
 			    c = a % b;
 			    System.out.println( c );
 		    }
+			
 		    else
 		    {
 			    System.out.println("Undefined operator: '" + op + "'.");
