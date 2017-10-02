@@ -20,10 +20,12 @@ public class GradesInAnArrayAndFile{
 		System.out.println("Here are your randomly-selected grades (hope you pass):");
 		
 		for(int i=0; i<a.length; i++){
-			a[i]=1+r.nextInt(100);
+			a[i]=50+r.nextInt(90);
 			fw.write(a[i] +"  ");
 			System.out.println("Grade "+(i+1)+" : "+a[i]);
 		}
 		fw.close();
+		System.out.println();
+		System.out.println("Data saved in \""+file_name+"\".");
 	}
 }
