@@ -20,6 +20,7 @@ public class IsItThereOrNot{
 		{
 			if ( value == a[i] && ! found )
 				found = true;
+			
 		}
 		
 		if (found)
