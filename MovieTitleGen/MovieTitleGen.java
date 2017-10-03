@@ -15,8 +15,8 @@ public class MovieTitleGen
 		System.out.print("Choosing randomly from " + adjectives.length + " adjectives ");
 		System.out.println("and " + nouns.length + " nouns (" + (adjectives.length*nouns.length) + " combinations).");
 
-		String adjective = "Cool";
-		String noun = "Mitchell";
+		String adjective = adjectives[(int)(Math.random() * adjectives.length)];
+		String noun = nouns[(int)(Math.random() * nouns.length)];
 
 		System.out.println( "Your movie title is: " + adjective + " " + noun );
 	}
