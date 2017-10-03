@@ -1,0 +1,5 @@
+Toyota	Camry	1985	622-VRX
+Chevrolet	Chevette	1980	143-SMB
+Honda	Civic	1993	883-RS9
+Ford	Mustang	1966	AZUCARB
+Dodge	Neon	1996	G74-LLC
