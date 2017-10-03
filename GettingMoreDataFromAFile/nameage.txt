@@ -1,0 +1,10 @@
+Steve_Jobs
+50 
+James_Brown
+71
+Britney_Spears
+23
+Michael_Jackson
+46
+Stanley_Kubrick
+76
